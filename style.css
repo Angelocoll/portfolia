@@ -373,6 +373,8 @@ align-items: center;
         height: 33.4vh;
         width: 50%;
         margin-bottom: 40px;
+        margin-top: 40px;
+        
     }
     .flex-project-b:last-of-type{
         display: none;
