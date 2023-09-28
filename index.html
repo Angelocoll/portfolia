@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+        
+         <a href="/index.html" class="logo">Portfolio</a>
+         <div class="tel-nav">
+
+         </div>
+        <div class="nav">
+       <div class="navitem">
+           <a hidden>Home</a>
+           <a href="/About.html">About</a>
+           <a href="/projects.html">Project´s</a>
+           <a>Future-Plans</a>
+           <a>Contact</a>
+           
+           
+       </div>
+        </div>
+
+    </header>
+    <main>
+
+    <section class="home">
+        <video class="Video-back" src="vatten.mp4" alt="Vatten vågor som möter sand strand" autoplay muted loop></video>
+        <div class="content">
+           <h1> my tech <br> <span> path </span></h1>
+           <p>
+            From being a beginner to becoming a passionate tech enthusiast, my journey has been exciting! <br> I have explored different programming languages ​​but mainly developed websites and apps, and learned the basic principles of computer science. I am constantly hungry to learn more and challenge myself in the world of technology. &#128640; &#128187;</p>
+             <a href="/About.html" class="read-more">Read More</a>
+        </div>
+        <div class="media-icons">
+            <a href="https://www.facebook.com/angelo.collocolo/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/Angelocoll"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/angelo-collocolo-451098204/"><i class="fab fa-linkedin"></i></a>
+            
+
+        </div>
+    </section>
+      <script type="text/javascript">
+        /*javascript meny knapp*/
+        const menybtn = document.querySelector(".tel-nav")
+        const nav = document.querySelector(".nav")
+        menybtn.addEventListener("click", () =>{
+            menybtn.classList.toggle("active");
+            nav.classList.toggle("active");
+
+        });
+
+
+      </script>
+    
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

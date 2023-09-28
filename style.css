@@ -1,0 +1,562 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+
+}
+header a:hover{
+color: black;
+}
+header .logo{
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header .nav{
+    position: relative;
+}
+header .nav .navitem a{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+header .nav .navitem a:before{
+    content: '';
+    position: absolute;
+    background:rgb(255, 255, 255) ;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+header .nav .navitem a:hover::before{
+    width: 100%;
+
+}
+section{
+    padding: 100px 200px;
+}
+.home{
+    position: relative;
+    width: 100%;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(168, 168, 140);
+}
+.home .content {
+    z-index: 888;
+    color: #fff;
+    width: 70%;
+    margin-top: 50px;
+}
+.home .content h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+
+}
+.home .content h1 span{
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+.home .content p{
+    margin-bottom: 65px;
+}
+.home .content a{
+    background: #fff;
+    padding: 15px 35px;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.home .media-icons{
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+.home .media-icons a{
+    color: #fff;
+    font-size: 1.6em;
+}
+.home .media-icons a:not(:last-child){
+    margin-bottom: 20px;
+}
+.home .media-icons a:hover{
+    transform: scale(1.5);
+    color: black;
+}
+.home video{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home .content .read-more:hover{
+/*background: #e9910c;*/
+color: white;
+background: black;
+}
+.about h1{
+    
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 75px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    
+    
+
+}
+
+.about{
+    
+    position: relative;
+    width: 100%;
+
+    min-height: 100vh;
+    display: flex;
+    
+    flex-direction: column;
+    background: rgb(168, 168, 140);
+}
+.aboutme{
+    display: flex;
+    
+    
+}
+
+.aboutme .about-content{
+    background: rgb(136, 136, 136);
+    max-height: 1100px;
+    width: 50%;
+    border-radius: 4px;
+    margin: 4px;
+    border: 4px solid black;
+    
+    justify-content: center;
+    
+}
+.aboutme .about-contents{
+    background: rgb(136, 136, 136);
+    max-height: 800px;
+    width: 50%;
+    border-radius: 4px;
+    margin: 4px;
+    border: 4px solid black;
+    
+    justify-content: center;
+    
+}
+.aboutme .about-content .skill-div{
+    
+    text-align: center;
+    
+    
+}
+.img-aboutme{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+
+.about .media-icons{
+    z-index: 888;
+    
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    
+    
+    transition: 0.5s ease;
+}
+.about .media-icons a{
+    color: #fff;
+    font-size: 1.6em;
+}
+ .about .media-icons a:not(:last-child){
+    margin-right: 20px;
+}
+ .about .media-icons a:hover{
+    transform: scale(1.5);
+    color: black;
+}
+.about .aboutme h2{
+    font-size: 2em;
+    margin: 4px;
+    text-align: center;
+    padding-top: 4px;
+    
+}
+.about .aboutme p{
+    padding: 16px;
+    
+}
+
+.about .aboutme h4{
+    font-size: 1.2em;
+    margin: 8px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.about .aboutme h3{
+    font-size: 1.3em;
+    margin: 8px;
+    text-align: center;
+}
+.about .aboutme ul{
+    
+    list-style: none;
+    padding-bottom: 8px;
+    
+}
+.about .aboutme ul li{
+    margin: 6px;
+    text-align: center;
+    
+}
+.about .aboutme .skill{
+    list-style:circle;
+     display: inline-block;
+     margin: 12px;
+    
+}
+.home .flex-project-a{
+    position: relative;
+    width: 100%;
+    min-height: 81vh;
+    color: transparent;
+    background: transparent;
+    
+    /*visibility: hidden;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.home .flex-project-b{
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: transparent;
+    background: transparent;
+
+    
+}
+.home .flex-project-c{
+    position: relative;
+    width: 30%;
+    height: 24vh;
+
+    border-radius: 4px;
+    background: transparent;
+}
+.flex-project-c img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border: 4px solid black;
+}
+.home .plans-content{
+    position: relative;
+    width: 70%;
+    min-height: 85vh;
+    background-color:  #0d98d8;
+    border-radius: 50%;
+    
+}
+.home .plans-content h1{
+    text-align: center;
+    padding-top: 60px;
+    font-style: italic;
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: #fff ;
+}
+.about .aboutme .about-contents .btn-mail{
+
+    height: 50px;
+    width: 100px;
+    font-size: 1em;
+    margin: 8px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+
+}
+.about .aboutme .about-contents .comments{
+    min-height: 6vh;
+    width: 70%;
+    margin: 4px;
+    background-color: beige;
+}
+.about .aboutme .about-contents .mail-text{
+    margin: 4px;
+    background-color: beige;
+    width: 50%;
+   
+}
+.about .aboutme .about-contents .contactme{
+    margin: 8px;
+    padding-top: 20px; 
+    padding-bottom: 10px ;
+   
+}
+form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.flex-project-c:hover{
+    scale: 1.2;
+}
+
+
+
+
+
+
+@media (max-width: 424px){
+.about .aboutme h4{
+    margin: 2px;
+}
+.about .aboutme{
+    font-size: 0.1em
+}
+
+.about .aboutme .skill{
+    margin: 1px !important;
+}
+.about h1 {
+    
+    font-size: 1.5em !important;
+    
+}
+
+}
+
+@media (max-width: 465px){
+    
+    .aboutme .about-content{
+        
+        
+        font-size: 0.9em;
+        
+    }
+    .about .aboutme ul li {
+        margin: 4px;
+        
+    }
+    .about .aboutme p{
+        padding: 4px;
+    }
+    
+    .about .aboutme .skill{
+        list-style:circle;
+         display: inline-block;
+         margin: 4px;
+         font-size: 0.5em;
+        
+    }
+    .about .media-icons{
+        
+        padding: 8px;
+       
+    }
+    .about .aboutme h2{
+        font-size: 1.5em;
+        
+        
+    }
+    .about .aboutme h3{
+        font-size: 1em;
+        
+        
+    }
+
+}
+
+@media (max-width: 1046px){
+
+    .about .aboutme .about-contents .contactme{
+        margin: 8px;
+        padding-top: 20px; 
+        padding-bottom: 10px ;
+        font-size: 0.5em;
+       
+    }
+    
+    header{
+        
+        padding: 12px 20px;
+    }
+    section{
+        padding: 100px 20px;
+    }
+    .home .media-icons{
+        right: 15px;
+    }
+    header .nav{
+        display: none;
+        
+    }
+    header .nav.active{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(128, 128, 128, 0.5);
+        
+    }
+    header .nav .navitem a{
+        color: #222;
+        font-size: 1.2em;
+        margin: 20px;
+    }
+    header .nav .navitem a::before{
+        
+        background: #222;
+        height: 5px;
+        
+    }
+    header .nav.active .navitem{
+        background: #fff;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1 1 1/ 20%);
+    }
+    .tel-nav{
+        background: url(meny.png)no-repeat;
+        background-size: 50px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .tel-nav.active{
+        z-index: 999;
+        background: url(close.png)no-repeat;
+        background-size: 35px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+    .aboutme .about-content{
+        
+        max-height: 550px;
+        font-size: 0.5em;
+        
+    }
+    .about .aboutme h4{
+        
+        margin-top: 8px;
+        
+    }
+    .about .aboutme p{
+        padding: 8px;
+    }
+    .about h1{
+    
+        text-align: center;
+        font-size: 2em;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 15px;
+        line-height: 75px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        
+        
+    
+    }
+    .about .aboutme .skill{
+        list-style:circle;
+         display: inline-block;
+         margin: 4px;
+        
+    }
+    .about .media-icons{
+        
+        padding: 8px;
+       
+    }
+    .home .flex-project-c{
+        position: relative;
+        width: 30%;
+        height: 16vh;
+    
+        border-radius: 4px;
+        
+    }
+    .home .flex-project-a {
+    
+        min-height: 20vh;
+       
+    }
+    .home .flex-project-b {
+    
+        height: 20vh;
+       
+    }
+   
+    
+}
