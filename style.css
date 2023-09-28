@@ -557,6 +557,14 @@ align-items: center;
         height: 20vh;
        
     }
-   
+}
+    @media (max-width: 640px) {
+
+    .about .aboutme .about-content {
+        max-height: 600px;
+        
+    }
+    
+}   
     
 }
