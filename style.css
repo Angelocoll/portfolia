@@ -561,7 +561,7 @@ align-items: center;
     @media (max-width: 640px) {
 
     .about .aboutme .about-content {
-        max-height: 600px;
+        max-height: 800px;
         
     }
     
