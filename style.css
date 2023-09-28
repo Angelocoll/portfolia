@@ -394,10 +394,11 @@ align-items: center;
     }
     .about .aboutme ul li {
         margin: 4px;
-        
+        font-size: 4px;        
     }
     .about .aboutme p{
         padding: 4px;
+        font-size: 4px;
     }
     
     .about .aboutme .skill{
