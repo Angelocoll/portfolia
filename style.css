@@ -438,7 +438,10 @@ align-items: center;
      .aboutme .about-contents{
          width: 90%;
      }
-
+     }
+     .about .h1s{
+    font-size: 34px;
+}
      
      
  }
