@@ -390,6 +390,12 @@ align-items: center;
      }
       .about .aboutme .skill {
         font-size: 14px;
+    }   
+     .about .aboutme p {
+        font-size: 14px;
+    }
+    .about .aboutme ul li {
+        font-size: 14px;
     }     
  }
  @media (max-width: 320px) {
