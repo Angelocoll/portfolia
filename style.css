@@ -497,8 +497,8 @@ align-items: center;
 
 
 @media (max-width: 1079px){
-    body main .home .Video-back{
-        display: none;
+   /* body main .home .Video-back{
+        display: none; */
     }
     
     .about .aboutme .about-contents .contactme{
