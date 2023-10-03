@@ -162,7 +162,7 @@ background: black;
 }
 .aboutme{
     display: flex;
-    
+    justify-content: center;
     
 }
 
@@ -180,7 +180,7 @@ background: black;
 .aboutme .about-contents{
     background: rgb(136, 136, 136);
     max-height: 800px;
-    width: 50%;
+    width: 80%;
     border-radius: 4px;
     margin: 4px;
     border: 4px solid black;
@@ -322,17 +322,25 @@ background: black;
 .about .aboutme .about-contents .btn-mail{
 
     height: 50px;
-    width: 100px;
+    width: 300px;
     font-size: 1em;
     margin: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: rgb(0, 0, 0);
     color: white;
+    border-radius: 8px;
+    
+
+}
+.about .aboutme .about-contents .btn-mail:hover{
+cursor: pointer;
+color: rgba(184, 184, 184, 0.778);
+   
     
 
 }
 .about .aboutme .about-contents .comments{
-    min-height: 6vh;
+    min-height: 12vh;
     width: 70%;
     margin: 4px;
     background-color: beige;
@@ -341,12 +349,15 @@ background: black;
     margin: 4px;
     background-color: beige;
     width: 50%;
+    height: 40px;
+    
    
 }
 .about .aboutme .about-contents .contactme{
     margin: 8px;
     padding-top: 20px; 
     padding-bottom: 10px ;
+    
    
 }
 form{
@@ -388,7 +399,16 @@ align-items: center;
          height: 22vh;
          
      }
-          
+     .about .aboutme .skill {
+        font-size: 14px;
+    }
+    .about .aboutme p {
+        font-size: 14px;
+    }
+    .about .aboutme ul li {
+        font-size: 14px;
+    }
+     
  }
  @media (max-width: 320px) {
  
@@ -404,15 +424,7 @@ align-items: center;
      .aboutme .about-content{
          max-height: 1200px;
      }
-     .about .aboutme .skill {
-        font-size: 14px;
-    }   
-     .about .aboutme p {
-        font-size: 14px;
-    }
-    .about .aboutme ul li {
-        font-size: 14px;
-    }      
+     
  }
  @media (max-width:685px) {
      .aboutme{
@@ -423,7 +435,10 @@ align-items: center;
      .aboutme .about-content{
          width: 85%;
      }
-     
+     .aboutme .about-contents{
+         width: 90%;
+     }
+
      
      
  }
@@ -502,14 +517,14 @@ align-items: center;
  }
  
  
- @media (max-width: 1079px){
+ @media (max-width: 1082px){
     
      
      .about .aboutme .about-contents .contactme{
          margin: 8px;
          padding-top: 20px; 
          padding-bottom: 10px ;
-         font-size: 0.5em;
+         font-size: 0.8em;
          
      }
      
@@ -578,12 +593,12 @@ align-items: center;
          background-position: center;
          transition: 0.3s ease;
      }
+
    
     
      
      
- }
-   
+ }   
     
     
 
