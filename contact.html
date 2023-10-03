@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Angelo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        
+        
+        <a href="/index.html" class="logo">Portfolio</a>
+        <div class="tel-nav">
+
+        </div>
+       <div class="nav">
+      <div class="navitem">
+          <a href="/index.html">Home</a>
+          <a href="/About.html">About</a>
+          <a href="/projects.html">Project´s</a>
+          <a>Future-Plans</a>
+          <a hidden>Contact</a>
+          
+          
+      </div>
+       </div>
+
+   </header>
+
+   <main>
+       
+       
+       
+       <section class="about">
+           <h1> Contact Me </h1>
+        
+    </div>
+    <div class="aboutme">
+        
+        <div class="about-contents">
+            
+            <h2>Angelo Collocolo</h2>
+            <h3>Frontend Developer</h3>
+            <hr>
+            <div class="maila">
+                <h4>Send e-mail to Angelo Collocolo:</h4>
+
+                <form action="mailto:angelo.collocolo@yh.nackademin.se" method="post" enctype="text/plain">
+                    Your Name:<br>
+                    <input class="mail-text" type="text" name="name"><br>
+                    Your E-mail:<br>
+                    <input class="mail-text" type="text" name="mail"><br>
+                    Comment:<br>
+                    <input class="comments" type="text" name="comment" size="50"><br><br>
+                <input class="btn-mail" type="submit" value="Send">
+                <input class="btn-mail" type="reset" value="Reset">
+            </form>
+            
+        </div>
+        <hr>
+        <ul>
+            <li class="contactme">Email: Angelo.collocolo@yh.nackademin.se</li>
+            <li class="contactme">Tel: 0737697749</li>
+        </ul>
+
+         <hr>
+
+              <div class="media-icons">
+               <a href="https://www.facebook.com/angelo.collocolo/"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://github.com/Angelocoll"><i class="fab fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/angelo-collocolo-451098204/"><i class="fab fa-linkedin"></i></a>
+               
+              
+              </div>
+              
+   </div>
+   
+   
+   
+   
+</section>
+
+
+
+
+
+
+
+      <script type="text/javascript">
+        /*javascript meny knapp*/
+        const menybtn = document.querySelector(".tel-nav")
+        const nav = document.querySelector(".nav")
+        menybtn.addEventListener("click", () =>{
+            menybtn.classList.toggle("active");
+            nav.classList.toggle("active");
+
+        });
+
+
+      </script>
+    
+
+    </main>
+    <footer>
+
+        
+
+    </footer>
+    
+</body>
+</html>
