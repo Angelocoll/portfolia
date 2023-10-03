@@ -388,7 +388,9 @@ align-items: center;
          height: 22vh;
          
      }
-     
+      .about .aboutme .skill {
+        font-size: 14px;
+    }     
  }
  @media (max-width: 320px) {
  
