@@ -388,15 +388,7 @@ align-items: center;
          height: 22vh;
          
      }
-      .about .aboutme .skill {
-        font-size: 14px;
-    }   
-     .about .aboutme p {
-        font-size: 14px;
-    }
-    .about .aboutme ul li {
-        font-size: 14px;
-    }     
+          
  }
  @media (max-width: 320px) {
  
@@ -412,7 +404,15 @@ align-items: center;
      .aboutme .about-content{
          max-height: 1200px;
      }
-     
+     .about .aboutme .skill {
+        font-size: 14px;
+    }   
+     .about .aboutme p {
+        font-size: 14px;
+    }
+    .about .aboutme ul li {
+        font-size: 14px;
+    }      
  }
  @media (max-width:685px) {
      .aboutme{
@@ -423,6 +423,7 @@ align-items: center;
      .aboutme .about-content{
          width: 85%;
      }
+     
      
      
  }
