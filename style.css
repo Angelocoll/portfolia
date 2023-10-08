@@ -504,7 +504,7 @@ align-items: center;
      }
      
  }
- @media (max-width:685px) {
+ @media (max-width:770px) {
      .aboutme{
          flex-direction: column;
          justify-content: center;
