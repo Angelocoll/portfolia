@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -354,11 +355,11 @@ color: rgba(184, 184, 184, 0.778);
     min-height: 12vh;
     width: 70%;
     margin: 4px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 }
 .about .aboutme .about-contents .mail-text{
     margin: 4px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     width: 70%;
     height: 40px;
     
@@ -370,6 +371,69 @@ color: rgba(184, 184, 184, 0.778);
     padding-bottom: 10px ;
     
    
+}
+.home .contenttt {
+    z-index: 888;
+    color: #000000;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge{
+    z-index: 000;
+    border: #000000 solid 4px;
+    width: 75%;
+    height: 80%;
+    object-fit: cover;
+}
+.slider-nav{
+    z-index: 888;
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transform: translateY(80px);
+    margin-bottom: 12px ;
+    margin-top: 500px;
+}
+.nav-btn{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+    transform: 0.3s ease;
+    
+}
+.nav-btn:not(:last-child){
+    
+    margin-right: 20px;
+    
+    
+}
+.nav-btn:hover{
+    transform: scale(1.2);
+    
+}
+.nav-btn.active{
+    background: rgb(0, 0, 0);
+}
+
+ .imge{
+    position: absolute;
+    
+    clip-path: circle(0% at 0 50%);
+}
+.imge.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s ease;
+    transition-property: clip-path;
+    
+    
 }
 form{
 display: flex;
@@ -625,7 +689,7 @@ align-items: center;
     
      
      
- }   
+ } 
     
      
      
