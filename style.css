@@ -248,7 +248,7 @@ background: black;
 }
 
 .about .aboutme h4{
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 8px;
     text-align: center;
     margin-top: 20px;
@@ -444,7 +444,7 @@ align-items: center;
 .flex-project-c:hover{
     scale: 1.2;
 }
-@media (max-width:745px) {
+@media (max-width:870px) {
 
     .home .flex-project-b{
          flex-direction: column;
@@ -608,13 +608,13 @@ align-items: center;
  }
  
  
- @media (max-width: 1082px){
+ @media (max-width: 1280px){
     
      
      .about .aboutme .about-contents .contactme{
          margin: 8px;
-         padding-top: 20px; 
-         padding-bottom: 10px ;
+         padding-top: 5px; 
+         padding-bottom: 5px ;
          font-size: 0.8em;
          
      }
@@ -689,7 +689,7 @@ align-items: center;
     
      
      
- } 
+ }
     
      
      
