@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        
+        
+         <a href="/portfolia/" class="logo">Portfolio</a>
+         <div class="tel-nav">
+
+         </div>
+        <div class="nav">
+       <div class="navitem">
+           <a href="/portfolia/">Home</a>
+           <a href="/portfolia/About.html">About</a>
+           <a href="/portfolia/projekts.html">Projekt´s</a>
+           <a href="/portfolia/contact.html">Contact</a>
+           <a hidden href="/portfolia/galleri.html">Contact</a>
+           
+           
+       </div>
+        </div>
+
+    </header>
+    <main>
+
+        <section class="home">
+            <div class="contenttt">
+            <img class="imge active" src="runtime.jpeg" alt=" bild på angelo och hans klasskamrater efter sprungit ett maraton">
+        <img class="imge" src="IMG_1672.JPG" alt="bild i yasuragi spa på anläggningen där">
+        <img class="imge" src="IMG_2072.JPG" alt=" bild på angelo i paris på en bro där man ser effeltornet i bakgrunden">
+        <div class="slider-nav">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            
+
+        </div>
+        </div>
+       
+        <div class="media-icons">
+            <a href="https://www.facebook.com/michaela.wahrling"><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            
+
+        </div>
+    </section>
+      <script type="text/javascript">
+        /*javascript meny knapp*/
+        const menybtn = document.querySelector(".tel-nav")
+        const nav = document.querySelector(".nav")
+        menybtn.addEventListener("click", () =>{
+            menybtn.classList.toggle("active");
+            nav.classList.toggle("active");
+
+        });
+
+        const btns = document.querySelectorAll(".nav-btn");
+        const slides = document.querySelectorAll(".imge");
+
+        var sliderNav = function (manual){
+            btns.forEach((btn) => {
+                btn.classList.remove("active");
+
+            });
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+
+            });
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+
+        }
+        btns.forEach((btn, i) =>{
+            btn.addEventListener("click",() => {
+            sliderNav(i);
+
+            });
+            
+        });
+
+
+
+      </script>
+    
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
