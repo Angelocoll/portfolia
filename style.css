@@ -465,7 +465,7 @@ align-items: center;
      }
      
  }
- @media (max-width: 450px) {
+ @media (max-width: 455px) {
  
     
      .home .flex-project-c{
@@ -525,7 +525,7 @@ align-items: center;
      
      
  }
- @media (max-width:410px) {
+ @media (max-width:420px) {
      
      .aboutme .about-content{
          width: 95%;
@@ -538,7 +538,7 @@ align-items: center;
      
      
  }
- @media (max-width:371px) {
+ @media (max-width:382px) {
      
      .aboutme .about-content{
          width: 100%;
@@ -551,7 +551,7 @@ align-items: center;
      
      
  }
- @media (max-width:355px) {
+ @media (max-width:365px) {
      .about .aboutme .about-content .skill{
          font-size: 12px;
      }
@@ -565,7 +565,7 @@ align-items: center;
      
      
  }
- @media (max-width:307px) {
+ @media (max-width:335px) {
      .about .aboutme .about-content .skill{
          font-size: 10px;
      }
